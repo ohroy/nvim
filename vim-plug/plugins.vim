@@ -8,10 +8,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-  " Change dates fast
-  Plug 'tpope/vim-speeddating'
-  " Convert binary, hex, etc..
-  Plug 'glts/vim-radical'
   " Files
   Plug 'tpope/vim-eunuch'
   " Repeat stuff
@@ -47,9 +43,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/onedark.vim'
+    " Plug 'christianchiarulli/onedark.vim'
     " Plug 'kaicataldo/material.vim'
-    " Plug 'NLKNguyen/papercolor-theme'
+    Plug 'NLKNguyen/papercolor-theme'
     " Plug 'tomasiser/vim-code-dark'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
